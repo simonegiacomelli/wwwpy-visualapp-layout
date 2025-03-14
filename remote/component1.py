@@ -21,8 +21,9 @@ class Component1(wpc.Component, tag_name='component-1'):
 <sl-button data-name="slButton1">slButton1</sl-button>
 
 <hr>
-<div style="display: flex">
-    <div>
+<div style="display: flex; gap: 1em;">
+<div style="display: flex; flex-direction: column; gap: 1em">
+    <div style="display: flex; gap: 0.5em;">
         <button data-name="button1">Open</button>
         <button data-name="button2">Firmware</button>
         <button data-name="button3">Print</button>
@@ -33,6 +34,11 @@ class Component1(wpc.Component, tag_name='component-1'):
          src="https://images.unsplash.com/photo-1517331156700-3c241d2b4d83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=90"
          alt="img1">
 </div>
+<img
+         src="https://images.unsplash.com/photo-1517331156700-3c241d2b4d83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=90"
+         alt="some">
+</div>
+
 <hr>
 <div style="display: flex">
     <div style="width: 30%;">Host:</div>
